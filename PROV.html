@@ -7,13 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <h1 id="VISA">HEJ HEJ HEJ</h1> -->
-    
+    <!-- <h1 id="VISA">HEJ HEJ HEJ</h1>
     
     <p id="demo">ÄNDRA MIG</p>
     <button onclick="document.getElementById('demo').innerHTML = 'Hej';"> Click me </button>
 
-    <!-- <button onclick="AlertText" id="button_1">CLICK</button> -->
+    <button onclick="AlertText" id="button_1">CLICK</button> -->
+
+    <button onclick="changeImageSrc()">Byt bild</button>
 
     <Script>
         
@@ -24,8 +25,19 @@
 
         //     alert("HEJ HEJ HEJ")
         // }
-
         
+        function changeImageSrc() {
+            var image = document.getElementById("myImage");
+            image.src = "bild.jpg"; 
+        }
+
+        // function addNumbers(a, b) {
+        // return a + b;
+        // }
+
+        // var result = addNumbers(5, 3);
+        // console.log(result); 
+
     </Script>
 </body>
 </html>
